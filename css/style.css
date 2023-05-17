@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8df5ae;
+    width: 100%;
+    /* height: auto; */
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #20bf6b;
+}
+header h1{
+    font-family: cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 10px;
+    color: #fff;
+    text-shadow: 3px 4px 3px #444;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.main-box{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(115, 184, 127);
+    padding: 20px 10px;
+    box-shadow: 0 8px 6px -6px rgb(32, 30, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button.btn{
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+button.btn:hover, button.btn:focus, button.btn:active{
+letter-spacing: 0.110rem;
+word-spacing: 0.1rem;
+}
+.form-control {
+    border-radius: 50px!important;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
